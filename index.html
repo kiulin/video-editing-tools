@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Video Editing Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎬 AI Video Editing Tools</h1>
+
+    <!-- AI Image Generator -->
+    <h2>🎨 AI Image Generator</h2>
+    <input type="text" id="imagePrompt" placeholder="Enter a prompt...">
+    <button onclick="generateAIImage()">Generate Image</button>
+    <div id="aiImageContainer"></div>
+
+    <!-- AI Video Enhancer -->
+    <h2>🎥 AI Video Enhancer</h2>
+    <input type="file" id="videoInput" accept="video/*">
+    <button onclick="enhanceVideo()">Enhance Video</button>
+    <video id="enhancedVideo" controls></video>
+
+    <!-- AI Voice Generator -->
+    <h2>🎙️ AI Voice Generator</h2>
+    <textarea id="voiceText" placeholder="Enter your text..."></textarea>
+    <button onclick="generateVoice()">Convert to Speech</button>
+    <audio id="voicePlayer" controls></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
