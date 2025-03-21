@@ -30,7 +30,7 @@ function enhanceVideo() {
 
     fetch("https://api-inference.huggingface.co/models/YourModelName", {
         method: "POST",
-        headers: { "Authorization": "Bearer YOUR_HF_API_KEY" },
+        headers: { "Authorization": "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" },
         body: formData
     })
     .then(response => response.blob())
